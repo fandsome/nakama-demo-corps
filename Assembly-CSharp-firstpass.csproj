@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1BA9B419-1D7B-5A79-744D-E7783DA6D5BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Nakama\Api.pb.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INAuthenticateMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INClient.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INCursor.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INError.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INFriend.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INGroup.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INGroupUser.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INLeaderboard.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INLeaderboardRecord.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INLogger.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INMatch.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INMatchData.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INMatchPresence.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INResultSet.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INSelf.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INSession.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INStorageData.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INStorageKey.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INSyncState.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INTopic.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INTopicId.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INTopicMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INTopicMessageAck.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INTopicPresence.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INTransport.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INUser.cs" />
+     <Compile Include="Assets\Plugins\Nakama\INUserPresence.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NAuthenticateMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NClient.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NConsoleLogger.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NCursor.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NError.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NErrorEventArgs.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NFriend.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NFriendAddMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NFriendBlockMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NFriendRemoveMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NFriendsListMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroup.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupAddUserMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupCreateMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupJoinMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupKickUserMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupLeaveMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupPromoteUserMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupRemoveMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupUpdateMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupUser.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupUsersListMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupsFetchMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupsListMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NGroupsSelfListMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NLeaderboard.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NLeaderboardRecord.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NLeaderboardRecordWriteMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NLeaderboardRecordsFetchMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NLeaderboardRecordsListMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NLeaderboardsListMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NMatch.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NMatchCreateMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NMatchData.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NMatchDataEventArgs.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NMatchDataSendMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NMatchJoinMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NMatchLeaveMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NMatchPresence.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NMatchPresenceEventArgs.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NResultSet.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NSelf.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NSelfFetchMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NSelfLinkMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NSelfUnlinkMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NSelfUpdateMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NSession.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NStorageData.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NStorageFetchMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NStorageKey.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NStorageRemoveMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NStorageWriteMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopic.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicId.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicJoinMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicLeaveMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicMessageAck.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicMessageEventArgs.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicMessageSendMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicMessagesListMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicPresence.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTopicPresenceEventArgs.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTransport.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NTransportJavascript.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NUnityLogger.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NUser.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NUserPresence.cs" />
+     <Compile Include="Assets\Plugins\Nakama\NUsersFetchMessage.cs" />
+     <Compile Include="Assets\Plugins\Nakama\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.Protobuf">
+ <HintPath>/Users/zbingw/Workspaces/unity/test_nakama/Assets/Plugins/Google.Protobuf.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>/Users/zbingw/Workspaces/unity/test_nakama/Assets/Plugins/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/zbingw/Workspaces/unity/test_nakama/Assets/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

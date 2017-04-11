@@ -1,0 +1,228 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll'
+-r:'Assets/Plugins/Google.Protobuf.dll'
+-r:'Assets/Plugins/websocket-sharp.dll'
+-r:'Assets/Plugins/JsonNet/Newtonsoft.Json.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_2
+-define:UNITY_5_5
+-define:UNITY_5
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+'Assets/Plugins/Nakama/Api.pb.cs'
+'Assets/Plugins/Nakama/INAuthenticateMessage.cs'
+'Assets/Plugins/Nakama/INClient.cs'
+'Assets/Plugins/Nakama/INCursor.cs'
+'Assets/Plugins/Nakama/INError.cs'
+'Assets/Plugins/Nakama/INFriend.cs'
+'Assets/Plugins/Nakama/INGroup.cs'
+'Assets/Plugins/Nakama/INGroupUser.cs'
+'Assets/Plugins/Nakama/INLeaderboard.cs'
+'Assets/Plugins/Nakama/INLeaderboardRecord.cs'
+'Assets/Plugins/Nakama/INLogger.cs'
+'Assets/Plugins/Nakama/INMatch.cs'
+'Assets/Plugins/Nakama/INMatchData.cs'
+'Assets/Plugins/Nakama/INMatchPresence.cs'
+'Assets/Plugins/Nakama/INMessage.cs'
+'Assets/Plugins/Nakama/INResultSet.cs'
+'Assets/Plugins/Nakama/INSelf.cs'
+'Assets/Plugins/Nakama/INSession.cs'
+'Assets/Plugins/Nakama/INStorageData.cs'
+'Assets/Plugins/Nakama/INStorageKey.cs'
+'Assets/Plugins/Nakama/INSyncState.cs'
+'Assets/Plugins/Nakama/INTopic.cs'
+'Assets/Plugins/Nakama/INTopicId.cs'
+'Assets/Plugins/Nakama/INTopicMessage.cs'
+'Assets/Plugins/Nakama/INTopicMessageAck.cs'
+'Assets/Plugins/Nakama/INTopicPresence.cs'
+'Assets/Plugins/Nakama/INTransport.cs'
+'Assets/Plugins/Nakama/INUser.cs'
+'Assets/Plugins/Nakama/INUserPresence.cs'
+'Assets/Plugins/Nakama/NAuthenticateMessage.cs'
+'Assets/Plugins/Nakama/NClient.cs'
+'Assets/Plugins/Nakama/NConsoleLogger.cs'
+'Assets/Plugins/Nakama/NCursor.cs'
+'Assets/Plugins/Nakama/NError.cs'
+'Assets/Plugins/Nakama/NErrorEventArgs.cs'
+'Assets/Plugins/Nakama/NFriend.cs'
+'Assets/Plugins/Nakama/NFriendAddMessage.cs'
+'Assets/Plugins/Nakama/NFriendBlockMessage.cs'
+'Assets/Plugins/Nakama/NFriendRemoveMessage.cs'
+'Assets/Plugins/Nakama/NFriendsListMessage.cs'
+'Assets/Plugins/Nakama/NGroup.cs'
+'Assets/Plugins/Nakama/NGroupAddUserMessage.cs'
+'Assets/Plugins/Nakama/NGroupCreateMessage.cs'
+'Assets/Plugins/Nakama/NGroupJoinMessage.cs'
+'Assets/Plugins/Nakama/NGroupKickUserMessage.cs'
+'Assets/Plugins/Nakama/NGroupLeaveMessage.cs'
+'Assets/Plugins/Nakama/NGroupPromoteUserMessage.cs'
+'Assets/Plugins/Nakama/NGroupRemoveMessage.cs'
+'Assets/Plugins/Nakama/NGroupUpdateMessage.cs'
+'Assets/Plugins/Nakama/NGroupUser.cs'
+'Assets/Plugins/Nakama/NGroupUsersListMessage.cs'
+'Assets/Plugins/Nakama/NGroupsFetchMessage.cs'
+'Assets/Plugins/Nakama/NGroupsListMessage.cs'
+'Assets/Plugins/Nakama/NGroupsSelfListMessage.cs'
+'Assets/Plugins/Nakama/NLeaderboard.cs'
+'Assets/Plugins/Nakama/NLeaderboardRecord.cs'
+'Assets/Plugins/Nakama/NLeaderboardRecordWriteMessage.cs'
+'Assets/Plugins/Nakama/NLeaderboardRecordsFetchMessage.cs'
+'Assets/Plugins/Nakama/NLeaderboardRecordsListMessage.cs'
+'Assets/Plugins/Nakama/NLeaderboardsListMessage.cs'
+'Assets/Plugins/Nakama/NMatch.cs'
+'Assets/Plugins/Nakama/NMatchCreateMessage.cs'
+'Assets/Plugins/Nakama/NMatchData.cs'
+'Assets/Plugins/Nakama/NMatchDataEventArgs.cs'
+'Assets/Plugins/Nakama/NMatchDataSendMessage.cs'
+'Assets/Plugins/Nakama/NMatchJoinMessage.cs'
+'Assets/Plugins/Nakama/NMatchLeaveMessage.cs'
+'Assets/Plugins/Nakama/NMatchPresence.cs'
+'Assets/Plugins/Nakama/NMatchPresenceEventArgs.cs'
+'Assets/Plugins/Nakama/NResultSet.cs'
+'Assets/Plugins/Nakama/NSelf.cs'
+'Assets/Plugins/Nakama/NSelfFetchMessage.cs'
+'Assets/Plugins/Nakama/NSelfLinkMessage.cs'
+'Assets/Plugins/Nakama/NSelfUnlinkMessage.cs'
+'Assets/Plugins/Nakama/NSelfUpdateMessage.cs'
+'Assets/Plugins/Nakama/NSession.cs'
+'Assets/Plugins/Nakama/NStorageData.cs'
+'Assets/Plugins/Nakama/NStorageFetchMessage.cs'
+'Assets/Plugins/Nakama/NStorageKey.cs'
+'Assets/Plugins/Nakama/NStorageRemoveMessage.cs'
+'Assets/Plugins/Nakama/NStorageWriteMessage.cs'
+'Assets/Plugins/Nakama/NTopic.cs'
+'Assets/Plugins/Nakama/NTopicId.cs'
+'Assets/Plugins/Nakama/NTopicJoinMessage.cs'
+'Assets/Plugins/Nakama/NTopicLeaveMessage.cs'
+'Assets/Plugins/Nakama/NTopicMessage.cs'
+'Assets/Plugins/Nakama/NTopicMessageAck.cs'
+'Assets/Plugins/Nakama/NTopicMessageEventArgs.cs'
+'Assets/Plugins/Nakama/NTopicMessageSendMessage.cs'
+'Assets/Plugins/Nakama/NTopicMessagesListMessage.cs'
+'Assets/Plugins/Nakama/NTopicPresence.cs'
+'Assets/Plugins/Nakama/NTopicPresenceEventArgs.cs'
+'Assets/Plugins/Nakama/NTransport.cs'
+'Assets/Plugins/Nakama/NTransportJavascript.cs'
+'Assets/Plugins/Nakama/NUnityLogger.cs'
+'Assets/Plugins/Nakama/NUser.cs'
+'Assets/Plugins/Nakama/NUserPresence.cs'
+'Assets/Plugins/Nakama/NUsersFetchMessage.cs'
+'Assets/Plugins/Nakama/Properties/AssemblyInfo.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs'
+'Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity
