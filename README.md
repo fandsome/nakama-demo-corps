@@ -1,6 +1,6 @@
-# NAKAMA DEMO
+# NAKAMA DEMO CORPS
 
-Demo to learn contents of Nakama. Put warriors and attack with each other.
+Put warriors to fight with each other. Using [Nakama](https://github.com/heroiclabs/nakama) and Unity 5
 
 1. Register and Login
 1. Enter room and send topic
@@ -8,9 +8,10 @@ Demo to learn contents of Nakama. Put warriors and attack with each other.
 
 ## Install
 
-1. Install nakama.
-1. Open this demo, change `default_key` and `Host` in `Assets/Scripts/MultiPlayerDemo/AccountService.cs`.
+1. Install Nakama.
+1. Open this demo, change `default_key` and `Host` in the `Assets/Scripts/MultiPlayerDemo/AccountService.cs`.
 1. Build and run two clients.
+1. Click `Put Warrior` Button to add warriros.
 
 ## Snapshots
 
